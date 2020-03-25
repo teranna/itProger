@@ -1,0 +1,26 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		int arr[] = {23, 6,3};
+		
+		try {
+//			int x=100/0;
+//			System.out.println(arr[3]);
+		} catch (ArithmeticException e) {
+			// TODO: handle exception
+			
+			System.out.println("=((  "+e);
+		} catch ( Exception e) {
+			// TODO: handle exception
+			
+			System.out.println("Uppsss  "+e);
+		} finally {
+			System.out.println("Finally is working");
+		}
+	}
+
+}
